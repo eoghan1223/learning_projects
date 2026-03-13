@@ -8,24 +8,25 @@ This is a class I made for polynomials in Python, my main motivation in creating
  * Calculus: Polynomials can be integrated or differentiated
  * Type Hinting throughout the class.
 ## Usage Example
-* Create P(x) = 3x^2 + 2x + 1
-* Coefficients are passed as [x^0, x^1, x^2]
+```python
+from polynomial import Polynomial
+
+# Create P(x) = 3x^2 + 2x + 1
+# Coefficients are passed as [x^0, x^1, x^2]
 p1 = Polynomial([1, 2, 3])
 
-* Readable string representation
-print(p1) 
-* Output: 3x^2 + 2x + 1
+# Readable string representation
 
-* Evaluate the polynomial at x = 2
+# Evaluate the polynomial at x = 2
 print(p1(2)) 
-* Output: 17
+# Output: 17
 
-#*Take the derivative
+# Take the derivative
 dp = p1.derivative()
 print(dp) 
-* Output: 6x + 2
+# Output: 6x + 2
 
-* Add two polynomials together
+# Add two polynomials together
 p2 = Polynomial([5, 0, -1]) # -1x^2 + 5
 print(p1 + p2)
-* Output: 2x^2 + 2x + 6
+# Output: 2x^2 + 2x + 6
