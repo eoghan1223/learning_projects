@@ -1,12 +1,5 @@
 # learning projects
 Repository of some small projects I created to help teach myself more aspects of Python. Currently includes a short program to simulate simple harmonic oscillation to teach myself more numpy/numerical methods, and a more extensive polynomial class program to teach myself object oriented programming.
-# harmonic_oscillator
-## Overview
-This is a short program I made to simulate a simple harmonic oscillator in Python. My main motivation for creating it was to learn about numerical methods using numpy.
-## Notable Features:
-* Uses the Euler Cromer method to simulate it accurately.
-* Provides three plots of position, velocity and energy against time using matplotlib.
-
 # polynomial
 ## Overview
 This is a class I made for polynomials in Python, my main motivation in creating it was just as a way to learn OOP. It's built from scratch, only using base python imports. It's structured such that it behaves as a base Python type class, i.e. operator overloading/dunder methods. 
@@ -40,4 +33,12 @@ print(dp)
 # Add two polynomials together
 p2 = Polynomial([5, 0, -1]) # -1x^2 + 5
 print(p1 + p2)
-# Output: 2x^2 + 2x + 6'''
+# Output: 2x^2 + 2x + 6
+```
+# harmonic_oscillator
+## Overview
+This is a short program I made to simulate a simple harmonic oscillator in Python. My main motivation for creating it was to learn about numerical methods using numpy.
+## Notable Features:
+* Uses the Euler Cromer method to simulate it accurately.
+* Provides three plots of position, velocity and energy against time using matplotlib.
+
